@@ -14,6 +14,38 @@
 <body data-bs-theme="dark">
   Hello
 
+  <div class="container">
+
+
+    <section class="row">
+      <div class="col-3">
+        <div onclick="helloWorld()" class="btn btn-primary">
+          hello
+        </div>
+      </div>
+    </section>
+
+    <div class="row justify-content-center">
+      #
+      <div id="user-input" class="col-4">howdy</div>
+    </div>
+
+    <section class="row">
+      <div onclick="pressButton('9')" class="col-4 btn btn-outline-light">9</div>
+      <div onclick="pressButton('8')" class="col-4 btn btn-outline-light">8</div>
+      <div onclick="pressButton('7')" class="col-4 btn btn-outline-light">7</div>
+      <div onclick="pressButton('6')" class="col-4 btn btn-outline-light">6</div>
+      <div onclick="pressButton('5')" class="col-4 btn btn-outline-light">5</div>
+      <div onclick="pressButton('4')" class="col-4 btn btn-outline-light">4</div>
+      <div onclick="pressThree()" class="col-4 btn btn-outline-light">3</div>
+      <div onclick="pressTwo()" class="col-4 btn btn-outline-light">2</div>
+      <div onclick="pressOne()" class="col-4 btn btn-outline-light">1</div>
+      <div onclick="submitCode()" class="col-6 btn btn-outline-success">submit</div>
+      <div class="col-4 btn btn-outline-light">0</div>
+    </section>
+
+  </div>
+
 
 
   <script src="app.js"></script>
