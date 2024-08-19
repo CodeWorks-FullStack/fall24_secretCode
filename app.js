@@ -88,10 +88,13 @@ function pressThree() {
   inputElement.innerText = userInput
 }
 
+// NOTE this is a cool function because it is re-usable, but might be hard to come up with as your first function.
+// It might not be until you have a few functions and you start to see a pattern that you can create a flexible function like this. That is ok, that is part of the refactoring process.
 function pressButton(number) {
   userInput += number
   console.log('pressed a button', number, userInput);
 
+  // document is our access to the DOM (document object model). it lets us do all sorts of interactions with the webpage.
   const inputElement = document.getElementById('user-input')
   console.log(inputElement, inputElement.innerText);
   inputElement.innerText = userInput
